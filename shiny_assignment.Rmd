@@ -1,0 +1,63 @@
+---
+title: "Shiny Assignment"
+author: Vishweshwaran
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Assignment Instructions
+
+Instructions
+
+This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio's servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
+
+## Data set used and Summary of the Data set
+
+Description
+The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). 
+
+```{r}
+summary(mtcars)
+```
+
+## Variables and plots
+
+The data frame has 11 variables.
+
+[, 1] mpg Miles/(US) gallon
+
+[, 2] cyl Number of cylinders
+
+[, 3] disp Displacement (cu.in.)
+
+[, 4] hp Gross horsepower
+
+[, 5] drat Rear axle ratio
+
+[, 6] wt Weight (lb/1000)
+
+[, 7] qsec 1/4 mile time
+
+[, 8] vs V/S
+
+[, 9] am Transmission (0 = automatic, 1 = manual)
+
+[,10] gear Number of forward gears
+
+[,11] carb Number of carburetors
+
+```{r, echo=FALSE}
+plot(mtcars)
+```
+
+## Links
+
+GitHub link
+https://github.com/Vishweshwaran/shiny_assignment.git
+
+Shiny Link.
+ https://vishweshwaransridhar.shinyapps.io/shiny_assignment/
+
